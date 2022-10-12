@@ -45,7 +45,7 @@ $ analyzeHeadless <PROJECT_PATH> <PROJECT_NAME> -process <TARGET_FILENAME> -scri
 
 ### Example:
 ```
-$ analyzeHeadless /home/galoget/ HeadlessAnalysis -import /home/galoget/malware-sample.exe -scriptPath /home/galoget/ghidra-headless-scripts/ -postscript decompiler.py
+$ analyzeHeadless /home/galoget/ HeadlessAnalysis -import /home/galoget/malware-sample.exe -scriptPath /home/galoget/ghidra-headless-scripts/ -postscript decompiler.py decompiled_malware_sample.c
 ```
 
 
@@ -62,5 +62,5 @@ $ analyzeHeadless <PROJECT_PATH> <PROJECT_NAME> -process <TARGET_FILENAME> -scri
 
 ### Example:
 ```
-$ analyzeHeadless /home/galoget/ HeadlessAnalysis -import /home/galoget/malware-sample.exe -scriptPath /home/galoget/ghidra-headless-scripts/ -postscript disassembler.py.py
+$ analyzeHeadless /home/galoget/ HeadlessAnalysis -import /home/galoget/malware-sample.exe -scriptPath /home/galoget/ghidra-headless-scripts/ -postscript disassembler.py.py disass_malware_sample.asm
 ```
