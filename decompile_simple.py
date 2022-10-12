@@ -4,7 +4,7 @@
 """
 Python Script used to communicate with Ghidra's API.
 It will decompile all the functions of a defined binary and
-save results into output_malware.c
+save results into decompiled_output.c
 
 The code is pretty straightforward, it includes comments and it is easy to understand.
 This will help people that is starting with Automated Malware Analysis
