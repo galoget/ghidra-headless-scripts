@@ -30,7 +30,7 @@ print "Current Python version: " + str(sys.version.decode())
 # Iterates through all functions in the binary and decompiles them
 # Then prints the Pseudo C Code
 
-with open("output_malware.c", "w") as output_file:
+with open("decompiled_output.c", "w") as output_file:
     for function in list(functions):
         # Add a comment with the name of the function
         # print "// Function: " + str(function)
