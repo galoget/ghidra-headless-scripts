@@ -1,6 +1,6 @@
 # Ghidra - Headless Scripts (Python)
 
-Headless Scripts for Ghidra's Headless Analyzer written in Python 2 for Automated Analsis (Decompilation and Disassembly).
+Headless Scripts for Ghidra's Headless Analyzer written in Python 2 for Automated Analysis (Decompilation and Disassembly).
 
 ## Legend
 
